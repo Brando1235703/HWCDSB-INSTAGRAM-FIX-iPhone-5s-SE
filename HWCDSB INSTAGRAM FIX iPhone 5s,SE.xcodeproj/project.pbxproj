@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA32DB841E30686200BAE1F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB831E30686200BAE1F8 /* main.m */; };
+		AA32DB871E30686200BAE1F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB861E30686200BAE1F8 /* AppDelegate.m */; };
+		AA32DB8A1E30686200BAE1F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB891E30686200BAE1F8 /* ViewController.m */; };
+		AA32DB8D1E30686200BAE1F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32DB8B1E30686200BAE1F8 /* Main.storyboard */; };
+		AA32DB901E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB8E1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld */; };
+		AA32DB921E30686300BAE1F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA32DB911E30686300BAE1F8 /* Assets.xcassets */; };
+		AA32DB951E30686300BAE1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA32DB931E30686300BAE1F8 /* LaunchScreen.storyboard */; };
+		AA32DBA01E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB9F1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m */; };
+		AA32DBAB1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DBAA1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA32DB9C1E30686400BAE1F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA32DB771E30686200BAE1F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA32DB7E1E30686200BAE1F8;
+			remoteInfo = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+		};
+		AA32DBA71E30686400BAE1F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA32DB771E30686200BAE1F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA32DB7E1E30686200BAE1F8;
+			remoteInfo = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA32DB7F1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX iPhone 5s,SE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA32DB831E30686200BAE1F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA32DB851E30686200BAE1F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA32DB861E30686200BAE1F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA32DB881E30686200BAE1F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA32DB891E30686200BAE1F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA32DB8C1E30686200BAE1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA32DB8F1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodel; sourceTree = "<group>"; };
+		AA32DB911E30686300BAE1F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA32DB941E30686300BAE1F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA32DB961E30686300BAE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA32DB9B1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA32DB9F1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m; sourceTree = "<group>"; };
+		AA32DBA11E30686400BAE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA32DBA61E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA32DBAA1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m; sourceTree = "<group>"; };
+		AA32DBAC1E30686400BAE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA32DB7C1E30686200BAE1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DB981E30686400BAE1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DBA31E30686400BAE1F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA32DB761E30686200BAE1F8 = {
+			isa = PBXGroup;
+			children = (
+				AA32DB811E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */,
+				AA32DB9E1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests */,
+				AA32DBA91E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests */,
+				AA32DB801E30686200BAE1F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA32DB801E30686200BAE1F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA32DB7F1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE.app */,
+				AA32DB9B1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests.xctest */,
+				AA32DBA61E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA32DB811E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */ = {
+			isa = PBXGroup;
+			children = (
+				AA32DB851E30686200BAE1F8 /* AppDelegate.h */,
+				AA32DB861E30686200BAE1F8 /* AppDelegate.m */,
+				AA32DB881E30686200BAE1F8 /* ViewController.h */,
+				AA32DB891E30686200BAE1F8 /* ViewController.m */,
+				AA32DB8B1E30686200BAE1F8 /* Main.storyboard */,
+				AA32DB911E30686300BAE1F8 /* Assets.xcassets */,
+				AA32DB931E30686300BAE1F8 /* LaunchScreen.storyboard */,
+				AA32DB961E30686300BAE1F8 /* Info.plist */,
+				AA32DB8E1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld */,
+				AA32DB821E30686200BAE1F8 /* Supporting Files */,
+			);
+			path = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			sourceTree = "<group>";
+		};
+		AA32DB821E30686200BAE1F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA32DB831E30686200BAE1F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA32DB9E1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests */ = {
+			isa = PBXGroup;
+			children = (
+				AA32DB9F1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m */,
+				AA32DBA11E30686400BAE1F8 /* Info.plist */,
+			);
+			path = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests";
+			sourceTree = "<group>";
+		};
+		AA32DBA91E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA32DBAA1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m */,
+				AA32DBAC1E30686400BAE1F8 /* Info.plist */,
+			);
+			path = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA32DB7E1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA32DBAF1E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SE" */;
+			buildPhases = (
+				AA32DB7B1E30686200BAE1F8 /* Sources */,
+				AA32DB7C1E30686200BAE1F8 /* Frameworks */,
+				AA32DB7D1E30686200BAE1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			productName = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			productReference = AA32DB7F1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA32DB9A1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA32DBB21E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SETests" */;
+			buildPhases = (
+				AA32DB971E30686400BAE1F8 /* Sources */,
+				AA32DB981E30686400BAE1F8 /* Frameworks */,
+				AA32DB991E30686400BAE1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA32DB9D1E30686400BAE1F8 /* PBXTargetDependency */,
+			);
+			name = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests";
+			productName = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests";
+			productReference = AA32DB9B1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA32DBA51E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA32DBB51E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests" */;
+			buildPhases = (
+				AA32DBA21E30686400BAE1F8 /* Sources */,
+				AA32DBA31E30686400BAE1F8 /* Frameworks */,
+				AA32DBA41E30686400BAE1F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA32DBA81E30686400BAE1F8 /* PBXTargetDependency */,
+			);
+			name = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests";
+			productName = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests";
+			productReference = AA32DBA61E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA32DB771E30686200BAE1F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Brando1235703;
+				TargetAttributes = {
+					AA32DB7E1E30686200BAE1F8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+					};
+					AA32DB9A1E30686400BAE1F8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA32DB7E1E30686200BAE1F8;
+					};
+					AA32DBA51E30686400BAE1F8 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = Q73B3D4AK4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA32DB7E1E30686200BAE1F8;
+					};
+				};
+			};
+			buildConfigurationList = AA32DB7A1E30686200BAE1F8 /* Build configuration list for PBXProject "HWCDSB INSTAGRAM FIX iPhone 5s,SE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA32DB761E30686200BAE1F8;
+			productRefGroup = AA32DB801E30686200BAE1F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA32DB7E1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */,
+				AA32DB9A1E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SETests */,
+				AA32DBA51E30686400BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA32DB7D1E30686200BAE1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32DB951E30686300BAE1F8 /* LaunchScreen.storyboard in Resources */,
+				AA32DB921E30686300BAE1F8 /* Assets.xcassets in Resources */,
+				AA32DB8D1E30686200BAE1F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DB991E30686400BAE1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DBA41E30686400BAE1F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA32DB7B1E30686200BAE1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32DB901E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld in Sources */,
+				AA32DB8A1E30686200BAE1F8 /* ViewController.m in Sources */,
+				AA32DB871E30686200BAE1F8 /* AppDelegate.m in Sources */,
+				AA32DB841E30686200BAE1F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DB971E30686400BAE1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32DBA01E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA32DBA21E30686400BAE1F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA32DBAB1E30686400BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA32DB9D1E30686400BAE1F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA32DB7E1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */;
+			targetProxy = AA32DB9C1E30686400BAE1F8 /* PBXContainerItemProxy */;
+		};
+		AA32DBA81E30686400BAE1F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA32DB7E1E30686200BAE1F8 /* HWCDSB INSTAGRAM FIX iPhone 5s,SE */;
+			targetProxy = AA32DBA71E30686400BAE1F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA32DB8B1E30686200BAE1F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA32DB8C1E30686200BAE1F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA32DB931E30686300BAE1F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA32DB941E30686300BAE1F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA32DBAD1E30686400BAE1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA32DBAE1E30686400BAE1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA32DBB01E30686400BAE1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA32DBB11E30686400BAE1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SE/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA32DBB31E30686400BAE1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWCDSB INSTAGRAM FIX iPhone 5s,SE.app/HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			};
+			name = Debug;
+		};
+		AA32DBB41E30686400BAE1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWCDSB INSTAGRAM FIX iPhone 5s,SE.app/HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			};
+			name = Release;
+		};
+		AA32DBB61E30686400BAE1F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			};
+			name = Debug;
+		};
+		AA32DBB71E30686400BAE1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Q73B3D4AK4;
+				INFOPLIST_FILE = "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "brandonwithall.HWCDSB-INSTAGRAM-FIX-iPhone-5s-SEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "HWCDSB INSTAGRAM FIX iPhone 5s,SE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA32DB7A1E30686200BAE1F8 /* Build configuration list for PBXProject "HWCDSB INSTAGRAM FIX iPhone 5s,SE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32DBAD1E30686400BAE1F8 /* Debug */,
+				AA32DBAE1E30686400BAE1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA32DBAF1E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32DBB01E30686400BAE1F8 /* Debug */,
+				AA32DBB11E30686400BAE1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA32DBB21E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32DBB31E30686400BAE1F8 /* Debug */,
+				AA32DBB41E30686400BAE1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA32DBB51E30686400BAE1F8 /* Build configuration list for PBXNativeTarget "HWCDSB INSTAGRAM FIX iPhone 5s,SEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA32DBB61E30686400BAE1F8 /* Debug */,
+				AA32DBB71E30686400BAE1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AA32DB8E1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AA32DB8F1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodel */,
+			);
+			currentVersion = AA32DB8F1E30686300BAE1F8 /* HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodel */;
+			path = HWCDSB_INSTAGRAM_FIX_iPhone_5s_SE.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AA32DB771E30686200BAE1F8 /* Project object */;
+}
