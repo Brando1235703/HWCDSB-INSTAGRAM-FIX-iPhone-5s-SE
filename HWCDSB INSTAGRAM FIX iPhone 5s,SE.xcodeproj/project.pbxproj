@@ -4,7 +4,7 @@
 	classes = {
 	};
 	objectVersion = 46;
-	objects = {
+	objects = { 
 
 /* Begin PBXBuildFile section */
 		AA32DB841E30686200BAE1F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA32DB831E30686200BAE1F8 /* main.m */; };
