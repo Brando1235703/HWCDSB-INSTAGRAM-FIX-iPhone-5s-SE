@@ -9,6 +9,13 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
+//Offsets for iPhone 5S 
+
+evenproc = arm64
+  
+  n51ap = 0x377292
+  
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
